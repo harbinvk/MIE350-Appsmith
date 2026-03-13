@@ -22,11 +22,11 @@
       "isDefault": true
     },
     {
-      "id": "Shop",
+      "id": "Suppliers",
       "isDefault": false
     },
     {
-      "id": "Analytics",
+      "id": "Orders",
       "isDefault": false
     }
   ],

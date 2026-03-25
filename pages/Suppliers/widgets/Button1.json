@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 15,
+  "bottomRow": 6,
   "boxShadow": "none",
   "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
   "buttonVariant": "PRIMARY",
@@ -42,7 +42,7 @@
   "responsiveBehavior": "hug",
   "rightColumn": 11,
   "text": "Refresh Suppliers",
-  "topRow": 11,
+  "topRow": 2,
   "type": "BUTTON_WIDGET",
   "version": 1,
   "widgetId": "pg08gavin1",

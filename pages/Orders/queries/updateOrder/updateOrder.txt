@@ -1,0 +1,6 @@
+{
+  "customer_name": "{{ inpCustomerName.text }}",
+  "customer_email": "{{ inpCustomerEmail.text }}",
+  "status": "{{ inpStatus.text }}",
+  "created_at": "{{ inpCreatedAt.text }}"
+}

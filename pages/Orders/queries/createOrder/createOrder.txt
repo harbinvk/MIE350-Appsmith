@@ -1,0 +1,7 @@
+{
+  "order_id": {{ Number(addOrderId.text) }},
+  "customer_name": "{{ addCustomerName.text }}",
+  "customer_email": "{{ addCustomerEmail.text }}",
+  "status": "{{ addStatus.text }}",
+  "created_at": "{{ addCreatedAt.text }}"
+}

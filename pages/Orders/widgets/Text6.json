@@ -1,7 +1,9 @@
 {
   "animateLoading": true,
+  "backgroundColor": "{{appsmith.theme.colors.backgroundColor}}",
+  "borderColor": "{{appsmith.theme.colors.backgroundColor}}",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 17,
+  "bottomRow": 23,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -11,6 +13,15 @@
     },
     {
       "key": "borderRadius"
+    },
+    {
+      "key": "text"
+    },
+    {
+      "key": "backgroundColor"
+    },
+    {
+      "key": "borderColor"
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
@@ -20,33 +31,31 @@
   "fontStyle": "BOLD",
   "isLoading": false,
   "isVisible": true,
-  "key": "g0j4oj9w62",
-  "leftColumn": 14,
+  "key": "qc2c9rw1ik",
+  "leftColumn": 5,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
-  "mobileBottomRow": 22,
-  "mobileLeftColumn": 21,
-  "mobileRightColumn": 37,
-  "mobileTopRow": 18,
+  "mobileBottomRow": 70,
+  "mobileLeftColumn": 5,
+  "mobileRightColumn": 21,
+  "mobileTopRow": 66,
   "needsErrorInfo": false,
-  "originalBottomRow": 20,
-  "originalTopRow": 15,
   "overflow": "NONE",
-  "parentColumnSpace": 4.9375,
+  "parentColumnSpace": 16.796875,
   "parentId": "0",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 48,
+  "rightColumn": 16,
   "shouldTruncate": false,
-  "text": "View, update, and manage customer orders for press-on nail products",
+  "text": "Toatal orders: {{ Table1.tableData.length }}",
   "textAlign": "LEFT",
   "textColor": "#231F20",
-  "topRow": 13,
+  "topRow": 19,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "4nomy9wpwb",
-  "widgetName": "Text2"
+  "widgetId": "70ohxgg6dq",
+  "widgetName": "Text6"
 }

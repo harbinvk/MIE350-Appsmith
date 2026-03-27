@@ -1,7 +1,6 @@
 {
   "animateLoading": true,
   "backgroundColor": "#d4d4d8",
-  "borderColor": "{{appsmith.theme.colors.backgroundColor}}",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "bottomRow": 51,
   "dynamicBindingPathList": [
@@ -16,9 +15,6 @@
     },
     {
       "key": "text"
-    },
-    {
-      "key": "borderColor"
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
@@ -28,33 +24,33 @@
   "fontStyle": "BOLD",
   "isLoading": false,
   "isVisible": true,
-  "key": "qc2c9rw1ik",
-  "leftColumn": 36,
+  "key": "mehfcjkqtk",
+  "leftColumn": 48,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
-  "mobileBottomRow": 70,
+  "mobileBottomRow": 21,
   "mobileLeftColumn": 5,
   "mobileRightColumn": 21,
-  "mobileTopRow": 66,
+  "mobileTopRow": 17,
   "needsErrorInfo": false,
-  "originalBottomRow": 51,
-  "originalTopRow": 47,
+  "originalBottomRow": 52,
+  "originalTopRow": 48,
   "overflow": "NONE",
   "parentColumnSpace": 16.796875,
   "parentId": "0",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 47,
+  "rightColumn": 58,
   "shouldTruncate": false,
-  "text": "Toatal Orders: {{ Table1.tableData.length }}",
+  "text": "Placed Order: {{ Table1.tableData.filter(o => o.status === \"PLACED\").length }}",
   "textAlign": "CENTER",
   "textColor": "#231F20",
   "topRow": 47,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "70ohxgg6dq",
-  "widgetName": "Text6"
+  "widgetId": "fn4jzy3c6m",
+  "widgetName": "Text7"
 }

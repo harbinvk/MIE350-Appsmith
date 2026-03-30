@@ -36,6 +36,10 @@
     {
       "id": "Page2",
       "isDefault": false
+    },
+    {
+      "id": "Order Page New Version",
+      "isDefault": false
     }
   ],
   "unpublishedApplicationDetail": {

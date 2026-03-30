@@ -4,7 +4,7 @@
   "borderColor": "#E0DEDE",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": "1",
-  "bottomRow": 42,
+  "bottomRow": 41,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "cachedTableData": {},
   "canFreezeColumn": true,
@@ -42,7 +42,7 @@
     "createdAt",
     "updatedAt"
   ],
-  "columnUpdatedAt": 1774641452990,
+  "columnUpdatedAt": 1774649512982,
   "columnWidthMap": {
     "reorder_level": 133
   },
@@ -429,7 +429,7 @@
   "searchKey": "",
   "tableData": "{{getInventory.data}}",
   "textSize": "0.875rem",
-  "topRow": 14,
+  "topRow": 13,
   "totalRecordsCount": 0,
   "type": "TABLE_WIDGET_V2",
   "version": 2,

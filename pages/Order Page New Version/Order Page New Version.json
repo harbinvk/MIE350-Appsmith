@@ -1,24 +1,23 @@
 {
-  "gitSyncId": "69afa6c79e39756f62038403_eda8e388-2bbb-482c-84da-abb1fa9d774f",
+  "gitSyncId": "69bdc9bc2381c634c51fcd0b_959ba66f-ce81-48c6-ba48-51b07b8691da",
   "unpublishedPage": {
     "isHidden": false,
     "layouts": [
       {
         "dsl": {
           "backgroundColor": "none",
-          "bottomRow": 410,
+          "bottomRow": 740,
           "canExtend": true,
           "containerStyle": "none",
           "detachFromLayout": true,
           "dynamicBindingPathList": [],
-          "dynamicTriggerPathList": [],
           "leftColumn": 0,
-          "minHeight": 1292,
+          "minHeight": 790,
           "parentColumnSpace": 1,
           "parentRowSpace": 1,
-          "rightColumn": 4896,
+          "rightColumn": 1224,
           "snapColumns": 64,
-          "snapRows": 124,
+          "snapRows": 77,
           "topRow": 0,
           "type": "CANVAS_WIDGET",
           "version": 94,
@@ -27,7 +26,7 @@
         }
       }
     ],
-    "name": "Inventory",
-    "slug": "inventory"
+    "name": "Order Page New Version",
+    "slug": "order-page-new-version"
   }
 }

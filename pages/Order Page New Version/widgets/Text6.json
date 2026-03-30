@@ -1,7 +1,9 @@
 {
   "animateLoading": true,
+  "backgroundColor": "#d4d4d8",
+  "borderColor": "{{appsmith.theme.colors.backgroundColor}}",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 12,
+  "bottomRow": 48,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -11,42 +13,48 @@
     },
     {
       "key": "borderRadius"
+    },
+    {
+      "key": "text"
+    },
+    {
+      "key": "borderColor"
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
   "dynamicTriggerPathList": [],
   "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
-  "fontSize": "0.875rem",
+  "fontSize": "1rem",
   "fontStyle": "BOLD",
   "isLoading": false,
   "isVisible": true,
-  "key": "v9f2y55y6j",
-  "leftColumn": 6,
+  "key": "qc2c9rw1ik",
+  "leftColumn": 35,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
-  "mobileBottomRow": 13,
-  "mobileLeftColumn": 22,
-  "mobileRightColumn": 38,
-  "mobileTopRow": 9,
+  "mobileBottomRow": 70,
+  "mobileLeftColumn": 5,
+  "mobileRightColumn": 21,
+  "mobileTopRow": 66,
   "needsErrorInfo": false,
-  "originalBottomRow": 12,
-  "originalTopRow": 8,
+  "originalBottomRow": 48,
+  "originalTopRow": 44,
   "overflow": "NONE",
-  "parentColumnSpace": 5.75,
+  "parentColumnSpace": 16.796875,
   "parentId": "0",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 60,
+  "rightColumn": 46,
   "shouldTruncate": false,
-  "text": "View Current Stock for press-on nail products",
+  "text": "Toatal Orders: {{ Table1.tableData.length }}",
   "textAlign": "CENTER",
   "textColor": "#231F20",
-  "topRow": 8,
+  "topRow": 44,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "jgcq7lqp0n",
-  "widgetName": "Text2"
+  "widgetId": "s6xrrbzvd1",
+  "widgetName": "Text6"
 }

@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 75,
+  "bottomRow": 72,
   "boxShadow": "none",
   "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
   "buttonVariant": "PRIMARY",
@@ -36,9 +36,9 @@
   "mobileRightColumn": 55,
   "mobileTopRow": 61,
   "needsErrorInfo": false,
-  "onClick": "{{ \n  deleteOrder.run(\n    () => {\n      getOrders.run();\n      showAlert('Order deleted successfully', 'success');\n    },\n    () => {\n      showAlert('Failed to delete order', 'error');\n    }\n  ) \n}}",
-  "originalBottomRow": 75,
-  "originalTopRow": 71,
+  "onClick": "{{ \n  deleteOrder.run(\n    () => {\n      getOrder.run();\n      showAlert('Order deleted successfully', 'success');\n    },\n    () => {\n      showAlert('Failed to delete order', 'error');\n    }\n  ) \n}}",
+  "originalBottomRow": 72,
+  "originalTopRow": 68,
   "parentColumnSpace": 16.921875,
   "parentId": "0",
   "parentRowSpace": 10,
@@ -49,9 +49,9 @@
   "responsiveBehavior": "hug",
   "rightColumn": 54,
   "text": "Delete Selected Order",
-  "topRow": 71,
+  "topRow": 68,
   "type": "BUTTON_WIDGET",
   "version": 1,
-  "widgetId": "lbw7k5h54c",
+  "widgetId": "0xp3my4iki",
   "widgetName": "Button5"
 }

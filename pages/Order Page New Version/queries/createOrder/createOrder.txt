@@ -1,0 +1,17 @@
+{
+  "customer": {
+    "id": {{ Number(inpCustomerId.text) }}
+  },
+  "shippingCost": {{ inpShippingCost.text ? Number(inpShippingCost.text) : 0 }},
+  "shippingAddress": "{{ inpShippingAddress.text }}",
+  "notes": "{{ inpNotes.text }}",
+  "orderItems": [
+    {
+      "product": {
+        "product_id": {{ Number(inpProductId.text) }}
+      },
+      "quantity": {{ Number(inpQuantity.text) }},
+      "unit_price": {{ Number(inpUnitPrice.text) }}
+    }
+  ]
+}
